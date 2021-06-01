@@ -148,7 +148,7 @@ services:
       - "DB_PASS=homerSeven"
     restart: unless-stopped
     ports:
-      - "9080:80"
+      - "80:80"
     volumes:
       - ./bootstrap:/app/bootstrap
     depends_on:
